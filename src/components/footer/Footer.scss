@@ -1,0 +1,82 @@
+.Footer{
+    width:auto;
+    height:100%;
+   
+    display: flex;
+    font-weight: 500;
+    margin-inline:10rem;
+    gap:2rem;
+    justify-content: space-evenly;
+    border-top: 1px solid rgba(0, 0, 0, 0.109);
+
+        
+        .left{
+            display: flex;
+            flex-direction: column;
+            width:23%;
+            .connect-learn {
+                width:10rem;
+                height:6rem;
+                border:2px solid rgb(179, 176, 170);
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+                .logo{
+                    width:100%;
+                    height:100%;
+                    object-fit: contain;
+                    opacity: 1;
+                    }
+            }
+            .social-links{
+                display: flex;
+                
+            
+                .space{
+                    margin-inline:0.1rem;
+                    
+
+                }
+            }
+            
+            
+            .follow-us{
+                margin-block: 1rem;
+                font-size: 1.5rem;
+            }
+        }
+        .courses{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            h3{font-size:2rem;}
+            .link{
+                cursor: pointer;
+                font-weight: 900;
+                font-size: 1.5rem;
+            }
+            .space{
+                margin-block:0.4rem ;
+            }
+        }
+       
+        .others{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+    
+
+            h3{font-size:2rem;}
+            .link{
+                cursor: pointer;
+                font-size: 1.5rem;
+                font-weight: 900;
+            }
+            .space{
+                margin-block:0.4rem ;
+            }
+            .supercharged{
+
+            }
+        }
+
+}
