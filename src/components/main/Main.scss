@@ -1,0 +1,53 @@
+.main-bg{
+    width:80%;
+    height:100%;margin-inline: auto;
+    display: flex;
+    margin-top: 1rem;
+    gap:1rem;
+    background: whitesmoke;
+    justify-content: space-around;
+        .body-text{
+            flex-direction: column;
+            display: flex;
+        
+            justify-content: center;
+            .skills{
+                font-size: 4rem;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            h4{
+                font-size: 2rem;
+            }
+            .goals{
+                font-size: 4rem; 
+                font-weight: 900;
+            }
+            .goals{
+                color: rgb(10, 10, 235);
+            }
+            .child{
+                font-size: 3rem;
+                font-weight: 900;
+
+            }
+        }
+        .body-image{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width:37.813rem;
+                height:33rem;
+                // background: rgb(164, 146, 146);
+                opacity: 1.0;
+                border-radius: 15px;
+                border: 0;
+            
+            }
+            
+        }
+        
+       
+
+    
+}
